@@ -9,7 +9,7 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #F4A695;
 }
 
 .btn-primary {
@@ -22,6 +22,11 @@ a {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+
+body {
+    color: #F4A695;
+    background-color: black;
 }
 
 /* Sticky footer styles
