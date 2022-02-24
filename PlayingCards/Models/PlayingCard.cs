@@ -16,6 +16,11 @@ namespace PlayingCards.Models
         public DateTime ReleaseDate { get; set; }
         public string? TypeOfCard { get; set; }
         public decimal Price { get; set; }
-        public string ? Rating { get; set; }
+        public int ? Rating { get; set; }
+
+        internal static object CreateBuilder(string[] args)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
